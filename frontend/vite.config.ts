@@ -21,6 +21,8 @@ export default defineConfig(() => {
     },
     base: './',
     server: {
+      port: '5000',
+      strictPort: true,
       proxy: {
         '/api/v3': 'http://localhost:5001',
       },
