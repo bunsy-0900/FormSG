@@ -65,6 +65,7 @@ export type RateLimitConfig = {
   uploadFormWhitelist: number
   publicApi: number
   platformApi: number
+  makeTextPrompt: number
 }
 
 export type PublicApiConfig = {
